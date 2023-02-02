@@ -35,6 +35,22 @@
     border-spacing: 0;
   }
 
+  #home {
+    display: block;
+  }
+
+  #about {
+    display: none;
+  }
+
+  #gallery {
+    display: none;
+  }
+
+  #contact {
+    display: block;
+  }
+
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url('./images/gradient.png');
