@@ -65,16 +65,11 @@
   h1, .h1 {
     font-size: 34px;
     font-style: oblique;
-    position: absolute;
-    right: 80px;
-    bottom: 40px;
-    
   }
 
   h2, .h2 {
     font-size: 30px;
     font-style: oblique;
-    text-align: center;
   }
 
   .fw-500 {
@@ -120,9 +115,11 @@
 
   .nav-list {
     display: flex;
+    flex-wrap: wrap;
     height: 100%;
-    line-height: 80px;
-    gap: 60px;
+    align-items: center;
+    gap: 16px;
+
   }
 
   .nav-item {
@@ -145,6 +142,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+  }
+
+  .hero-title {
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
   }
 
   .my-32 {
@@ -272,6 +275,15 @@
 
   .logo-author {
     object-fit: cover;
+  }
+
+  @media screen and (max-width: 640px) {
+    .image-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   
